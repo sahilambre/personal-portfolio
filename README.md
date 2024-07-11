@@ -1,3 +1,5 @@
+<a href="https://wakatime.com/badge/user/e24e0c1b-52c3-4b01-856b-b45f4639b452/project/c74518da-3f07-40de-80f0-dd8863cf7c08"><img src="https://wakatime.com/badge/user/e24e0c1b-52c3-4b01-856b-b45f4639b452/project/c74518da-3f07-40de-80f0-dd8863cf7c08.svg" alt="wakatime"></a>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
