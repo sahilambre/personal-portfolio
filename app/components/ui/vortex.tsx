@@ -1,4 +1,5 @@
-import { cn } from "@/utils/cn";
+// import { cn } from "@/utils/cn";
+import { cn } from "../../../utils/cn";
 import React, { useEffect, useRef } from "react";
 import { createNoise3D } from "simplex-noise";
 import { motion } from "framer-motion";
