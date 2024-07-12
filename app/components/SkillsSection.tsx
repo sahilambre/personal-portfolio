@@ -8,17 +8,22 @@ import Image from "next/image";
 import Css from "@/public/css.webp";
 import Firebase from "@/public/firebase.webp";
 import Git from "@/public/git.webp";
-import GithubIcon from "@/public/github.webp";
+// import GithubIcon from "@/public/github.webp";
 import Html from "@/public/html.webp";
 import Js from "@/public/js.webp";
 import Mongo from "@/public/mongodb.webp";
 import Mysql from "@/public/mysql.webp";
 import Nodejs from "@/public/nodejs.webp";
-import Postgre from "@/public/postgresql.webp";
+import Postgre from "@/public/postgres.webp";
 import Python from "@/public/python.webp";
 import ReactIcon from "@/public/react.webp";
 import TailwindIcon from "@/public/tailwind.webp";
 import TypescriptIcon from "@/public/typescript.webp";
+import Bootstrap from "@/public/bootstrap.webp";
+import Aws from "@/public/aws.webp";
+import Figma from "@/public/figma.webp";
+import Jira from "@/public/jira.webp";
+import Materialize from "@/public/materialize.webp";
 
 const SkillsSection = () => {
   return (
@@ -40,7 +45,7 @@ const SkillsSection = () => {
             </span>
           </h1> */}
         </div>
-        <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden b md:shadow-xl pt-32 pb-32">
+        <div className="relative flex h-[600px] w-full flex-col items-center justify-center overflow-hidden b md:shadow-xl mt-20 pt-40 pb-32">
           <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-gray-600  pb-4">
             Technologies and Frameworks
           </span>
@@ -52,7 +57,31 @@ const SkillsSection = () => {
             delay={20}
             radius={60}
           >
+            <Image src={Python} alt="html-icon" />
+          </OrbitingCircles>
+          <OrbitingCircles
+            className="size-[30px] border-none bg-transparent"
+            duration={20}
+            delay={25}
+            radius={60}
+          >
             <Image src={Html} alt="html-icon" />
+          </OrbitingCircles>
+          <OrbitingCircles
+            className="size-[30px] border-none bg-transparent"
+            duration={20}
+            delay={30}
+            radius={60}
+          >
+            <Image src={Aws} alt="aws-icon" />
+          </OrbitingCircles>
+          <OrbitingCircles
+            className="size-[30px] border-none bg-transparent"
+            duration={20}
+            delay={35}
+            radius={60}
+          >
+            <Image src={Materialize} alt="aws-icon" />
           </OrbitingCircles>
           {/* second circle */}
           <OrbitingCircles
@@ -60,54 +89,108 @@ const SkillsSection = () => {
             duration={20}
             delay={20}
             radius={120}
+            reverse
           >
-            <Image src={Css} alt="Css" />
+            <Image src={ReactIcon} alt="React-icon" />
+          </OrbitingCircles>
+          <OrbitingCircles
+            className="size-[30px] border-none  bg-transparent"
+            duration={20}
+            delay={5}
+            radius={120}
+            reverse
+          >
+            <Image src={Css} alt="React-icon" />
           </OrbitingCircles>
           <OrbitingCircles
             className="size-[30px] border-none bg-transparent"
             duration={20}
             delay={10}
             radius={120}
+            reverse
           >
             <Icons.notion />
+          </OrbitingCircles>
+          <OrbitingCircles
+            className="size-[30px] border-none bg-transparent"
+            duration={30}
+            delay={20}
+            radius={120}
+            reverse
+          >
+            <Image src={Jira} alt="jira-icon" />
           </OrbitingCircles>
 
           {/* third Circles (reverse) */}
           <OrbitingCircles
             className="size-[50px] border-none bg-transparent"
             radius={180}
-            duration={5}
-            reverse
-          >
-            <Icons.googleDrive />
-          </OrbitingCircles>
-          <OrbitingCircles
-            className="size-[50px] border-none bg-transparent"
-            radius={180}
-            duration={20}
-            delay={20}
-            reverse
+            duration={15}
+            delay={15}
           >
             <Icons.gitHub />
           </OrbitingCircles>
           <OrbitingCircles
             className="size-[50px] border-none bg-transparent"
             radius={180}
-            duration={3}
+            duration={20}
             delay={20}
-            reverse
           >
-            <Icons.openai />
+            <Image src={Bootstrap} alt="bootstrap-icon" />
           </OrbitingCircles>
+          <OrbitingCircles
+            className="size-[50px] border-none bg-transparent"
+            radius={180}
+            duration={25}
+            delay={25}
+          >
+            <Image src={Firebase} alt="firebase-icon" />
+          </OrbitingCircles>
+          <OrbitingCircles
+            className="size-[50px] border-none bg-transparent"
+            radius={180}
+            duration={35}
+            delay={25}
+          >
+            <Image src={Nodejs} alt="nodejs-icon" />
+          </OrbitingCircles>
+
           {/* fourth circle */}
           <OrbitingCircles
             className="size-[50px] border-none bg-transparent"
             radius={240}
-            duration={3}
-            delay={20}
+            duration={20}
+            delay={35}
             reverse
           >
-            <Icons.googleDrive />
+            <Image src={Js} alt="js-icon" />
+          </OrbitingCircles>
+          <OrbitingCircles
+            className="size-[50px] border-none bg-transparent"
+            radius={240}
+            duration={20}
+            delay={18}
+            reverse
+          >
+            <Image src={Mongo} alt="js-icon" />
+          </OrbitingCircles>
+          <OrbitingCircles
+            className="size-[50px] border-none bg-transparent"
+            radius={240}
+            duration={25}
+            delay={15}
+            reverse
+          >
+            <Image src={Figma} alt="figma-icon" />
+          </OrbitingCircles>
+          <OrbitingCircles
+            className="size-[50px] border-none bg-transparent"
+            radius={240}
+            duration={30}
+            delay={15}
+            reverse
+          >
+            <Image src={TypescriptIcon} alt="typescript-icon" />
           </OrbitingCircles>
         </div>
       </Vortex>
