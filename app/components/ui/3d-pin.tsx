@@ -1,9 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-// import { cn } from "@/utils/cn";
-import Link from "next/link";
-import { cn } from "../../../utils/cn";
+import { cn } from "@/utils/cn";
 
 export const PinContainer = ({
   children,
@@ -30,14 +28,13 @@ export const PinContainer = ({
   };
 
   return (
-    <Link
+    <div
       className={cn(
         "relative group/pin z-50  cursor-pointer",
         containerClassName
       )}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
-      href={href || "/"}
     >
       <div
         style={{
@@ -50,13 +47,13 @@ export const PinContainer = ({
           style={{
             transform: transform,
           }}
-          className="absolute left-1/2 p-4 top-1/2 flex justify-start items-start rounded-2xl shadow-[0_8px_16px_rgb(0_0_0/0.4)] bg-black border border-white/[0.4] group-hover/pin:border-white group-hover/pin:shadow-[0_8px_16px_rgb(255_255_255/0.9)] transition duration-700 overflow-hidden"
+          className="absolute left-1/2 p-4 top-1/2 flex justify-start items-start rounded-2xl shadow-[0_8px_16px_rgb(0_0_0/0.4)] bg-black border border-white/[0.2] group-hover/pin:border-white/[0.2] transition duration-700 overflow-hidden hover:shadow-[0_8px_16px_rgb(255_255_255/0.8)]"
         >
           <div className={cn(" relative z-50 ", className)}>{children}</div>
         </div>
       </div>
       <PinPerspective title={title} href={href} />
-    </Link>
+    </div>
   );
 };
 
