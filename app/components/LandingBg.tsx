@@ -2,6 +2,7 @@
 import React from "react";
 import { Vortex } from "./ui/vortex";
 import { ArrowRight } from "lucide-react";
+import WordRotate from "./magicui/word-rotate";
 
 const LandingBg = () => {
   return (
@@ -16,6 +17,10 @@ const LandingBg = () => {
         className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full"
       >
         <div className=" absolute left-30 md:left-20">
+          <WordRotate
+            className="text-4xl font-bold text-black dark:text-white"
+            words={["Hello! 👋🏼", "Namaste! 🙏🏼"]}
+          />
           <h2 className="text-white text-2xl md:text-6xl font-semibold text-left">
             Sahil Mukesh Ambre
           </h2>

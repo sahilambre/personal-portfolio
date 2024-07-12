@@ -1,29 +1,15 @@
 "use client";
 import React from "react";
 import { Vortex } from "./ui/vortex";
+import TextRevealByWord from "./magicui/text-reveal";
 
 const AboutPage = () => {
   return (
-    <div className="w-full h-screen overflow-hidden">
-      <Vortex
-        particleCount={500}
-        baseHue={200}
-        baseSpeed={0.3}
-        rangeY={10}
-        baseRadius={1}
-        backgroundColor="black"
-        className=" w-full h-full"
-      >
-        <div className="flex justify-center pt-8">
-          <h1 className="text-white text-4xl">
-            ABOUT{" "}
-            <span className="text-purple-500 font-semibold underline underline-offset-8">
-              &nbsp;ME.
-            </span>
-          </h1>
-        </div>
-      </Vortex>
-    </div>
+    <>
+      <div className="z-50  min-h-[16rem] items-center justify-center  dark:bg-black">
+        <TextRevealByWord text="Welcome to my corner of the web! I'm an enthusiastic and curious individual with a passion for exploring diverse topics and solving complex problems. This site is a reflection of my journey, filled with insights, ideas, and the occasional musing. I'm excited to share my thoughts and connect with like-minded individuals. Thanks for stopping by!" />
+      </div>
+    </>
   );
 };
 
