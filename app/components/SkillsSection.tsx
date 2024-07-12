@@ -27,7 +27,7 @@ import Materialize from "@/public/materialize.webp";
 
 const SkillsSection = () => {
   return (
-    <div className="w-full h-screen overflow-hidden">
+    <div className="w-full md:h-screen min-h-screen overflow-hidden">
       <Vortex
         particleCount={20}
         baseHue={200}
@@ -46,8 +46,8 @@ const SkillsSection = () => {
           </h1> */}
         </div>
         <div className="relative flex h-[600px] w-full flex-col items-center justify-center overflow-hidden b md:shadow-xl mt-20 pt-40 pb-32">
-          <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-gray-600  pb-4">
-            Technologies and Frameworks
+          <span className="lg:text-8xl md:text-8xl pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300 bg-clip-text text-center text-4xl font-semibold leading-none text-transparent dark:from-white dark:to-gray-600  pb-4">
+            Technologies & Skills
           </span>
 
           {/* Inner  First Circles */}
