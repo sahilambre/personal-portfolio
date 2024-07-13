@@ -19,12 +19,12 @@ const LandingBg = () => {
         <div className="text-center md:text-left">
           <div className="flex justify-center items-center">
             <WordRotate
-              className="text-xl md:text-3xl lg:text-4xl font-bold text-black dark:text-white"
+              className="text-xl md:text-3xl lg:text-4xl font-bold text-purple-500 dark:text-purple-500"
               words={["Hello! 👋🏼", "Namaste! 🙏🏼"]}
             />
           </div>
           <div className="flex justify-center">
-            <h2 className="text-white text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold">
+            <h2 className="text-white text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold ">
               Sahil Mukesh Ambre
             </h2>
           </div>
