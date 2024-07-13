@@ -5,6 +5,7 @@ import ProjectSection from "./components/ProjectSection";
 import React from "react";
 import SkillsSection from "./components/SkillsSection";
 import ExperienceSection from "./components/ExperienceSection";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <SkillsSection />
       <ProjectSection />
       <ExperienceSection />
+      <Footer />
     </div>
   );
 }
