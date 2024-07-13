@@ -1,7 +1,7 @@
 import React from "react";
 import { Meteors } from "./magicui/meteors";
 import NumberTicker from "./magicui/number-ticker";
-import WordTicker from "./magicui/WordTicker";
+// import WordTicker from "./magicui/WordTicker;
 
 const ExperienceSection = () => {
   return (
@@ -50,9 +50,10 @@ const ExperienceSection = () => {
               </h2>
 
               <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
-                I don&apos;t know what to write so I&apos;ll just paste
-                something cool here. One more sentence because lorem ipsum is
-                just unacceptable. Won&apos;t ChatGPT the shit out of this.
+                At Trivia Softwares, Mumbai, India, I led Python application
+                projects, integrating GUI and database connectivity. Developed a
+                Student Management System using Tkinter, enhancing efficiency by
+                20% through intuitive design and functional implementation.
               </p>
 
               {/* Meaty part - Meteor effect */}
@@ -95,13 +96,15 @@ const ExperienceSection = () => {
               </h2>
 
               <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
-                I don&apos;t know what to write so I&apos;ll just paste
-                something cool here. One more sentence because lorem ipsum is
-                just unacceptable. Won&apos;t ChatGPT the shit out of this.
+                At Dezignolics Pvt. Ltd., Mumbai, India, I extensively trained
+                in AI/ML concepts using Python. Achieved a 15% accuracy boost in
+                house price prediction models through meticulous tuning and a
+                35% performance enhancement via advanced data processing and
+                feature engineering.
               </p>
 
               {/* Meaty part - Meteor effect */}
-              <Meteors number={20} />
+              <Meteors number={50} />
             </div>
           </div>
         </div>
