@@ -61,7 +61,7 @@ const Footer = () => {
           </button>
           <a
             href="mailto:sahil01ambre@gmail.com"
-            className="w-40 h-10 flex items-center justify-center rounded-xl bg-black border dark:border-white border-transparent text-white text-sm"
+            className="w-40 h-10 flex items-center justify-center rounded-xl bg-black text-white border border-white text-sm"
           >
             Let's Connect <Send className="ml-2" />
           </a>
