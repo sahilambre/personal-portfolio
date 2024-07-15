@@ -37,7 +37,7 @@ const SkillsSection = () => {
         backgroundColor="black"
         className=" w-full h-full"
       >
-        <div className="flex justify-center pt-8">
+        <div className="flex justify-center pt-8" id="skills">
           {/* <h1 className="text-white text-4xl">
             MY{" "}
             <span className="text-purple-500 font-semibold underline underline-offset-8">

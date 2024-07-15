@@ -5,7 +5,7 @@ import NumberTicker from "./magicui/number-ticker";
 
 const ExperienceSection = () => {
   return (
-    <div className="bg-black h-auto pt-28">
+    <div className="bg-black h-auto pt-28" id="experience">
       <div className="flex justify-center">
         <h1 className="text-white text-4xl pt-20 sm:pt-8">
           MY{" "}

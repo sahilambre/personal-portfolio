@@ -12,7 +12,10 @@ import Sidekick from "@/public/Sidekick.webp";
 import Image from "next/image";
 const ProjectSection = () => {
   return (
-    <div className="flex flex-col justify-center items-center gap-16 w-screen bg-black">
+    <div
+      className="flex flex-col justify-center items-center gap-16 w-screen bg-black"
+      id="projects"
+    >
       <div className="text-white text-4xl">
         CHECKOUT SOME OF MY{" "}
         <span className="text-purple-500 font-semibold underline underline-offset-8">
@@ -25,7 +28,10 @@ const ProjectSection = () => {
           title="https://github.com/sahilambre/bloggy"
           href="https://github.com/sahilambre/bloggy"
         >
-          <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+          <div
+            className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] "
+            onClick={() => window.open("https://github.com/sahilambre/bloggy")}
+          >
             <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
               Bloggy
             </h3>
@@ -35,7 +41,7 @@ const ProjectSection = () => {
                 &nbsp;
               </span>
             </div>
-            {/* <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" /> */}
+
             <Image
               src={Bloggy}
               className="flex flex-1 w-full rounded-lg mt-4 "
@@ -47,7 +53,12 @@ const ProjectSection = () => {
           title="https://github.com/sahilambre/Blog-App"
           href="https://github.com/sahilambre/Blog-App"
         >
-          <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+          <div
+            className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] "
+            onClick={() =>
+              window.open("https://github.com/sahilambre/Blog-App")
+            }
+          >
             <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
               Write.it
             </h3>
@@ -69,7 +80,12 @@ const ProjectSection = () => {
           title="https://github.com/sahilambre/CS555-FinalProject"
           href="https://github.com/sahilambre/CS555-FinalProject"
         >
-          <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+          <div
+            className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] "
+            onClick={() =>
+              window.open("https://github.com/sahilambre/CS555-FinalProject")
+            }
+          >
             <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
               SIDEKICK
             </h3>
@@ -92,7 +108,14 @@ const ProjectSection = () => {
           title="https://github.com/sahilambre/CS546-Group-26-Final-Project"
           href="https://github.com/sahilambre/CS546-Group-26-Final-Project"
         >
-          <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+          <div
+            className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] "
+            onClick={() =>
+              window.open(
+                "https://github.com/sahilambre/CS546-Group-26-Final-Project"
+              )
+            }
+          >
             <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
               Job-spotlight
             </h3>
@@ -113,7 +136,12 @@ const ProjectSection = () => {
           title="https://github.com/sahilambre/personal-portfolio"
           href="https://github.com/sahilambre/personal-portfolio"
         >
-          <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
+          <div
+            className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] "
+            onClick={() =>
+              window.open("https://github.com/sahilambre/personal-portfolio")
+            }
+          >
             <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
               Portfolio Website
             </h3>
