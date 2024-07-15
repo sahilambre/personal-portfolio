@@ -46,7 +46,7 @@ const SkillsSection = () => {
           </h1> */}
         </div>
         <div className="relative flex h-[600px] w-full flex-col items-center justify-center overflow-hidden b md:shadow-xl mt-20 pt-40 pb-32">
-          <span className="lg:text-8xl md:text-8xl pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300 bg-clip-text text-center text-4xl font-semibold leading-none text-transparent dark:from-white dark:to-gray-600  pb-4">
+          <span className="lg:text-8xl md:text-8xl pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-white to-gray-400 bg-clip-text text-center text-4xl font-semibold leading-none text-transparent dark:from-white dark:to-gray-600  pb-4">
             Technologies & Skills
           </span>
 

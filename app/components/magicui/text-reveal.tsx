@@ -27,7 +27,7 @@ export const TextRevealByWord: FC<TextRevealByWordProps> = ({
           "sticky top-0 mx-auto flex flex-col max-w-4xl items-center bg-transparent px-[1rem] py-[5rem]"
         }
       >
-        <h1 className=" text-white text-4xl">
+        <h1 className=" dark:text-white text-black text-4xl">
           ABOUT{" "}
           <span className="text-purple-500 font-semibold underline underline-offset-8">
             &nbsp;ME.
