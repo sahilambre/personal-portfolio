@@ -28,7 +28,15 @@ const Footer = () => {
                 height={20}
                 className="mr-2"
               />
-              <span className="hidden md:inline-block">GitHub</span>
+              <span className="hidden md:inline-block">
+                <a
+                  href="https://github.com/sahilambre"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </span>
             </div>
           </button>
           <button className="w-40 h-10 rounded-xl bg-white text-black border border-black text-sm flex items-center justify-center">
@@ -40,12 +48,23 @@ const Footer = () => {
                 height={20}
                 className="mr-2"
               />
-              <span className="hidden md:inline-block">LinkedIn</span>
+              <span className="hidden md:inline-block">
+                <a
+                  href="https://www.linkedin.com/in/sahilambre/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn
+                </a>
+              </span>
             </div>
           </button>
-          <button className="w-40 h-10 flex items-center justify-center rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">
+          <a
+            href="mailto:sahil01ambre@gmail.com"
+            className="w-40 h-10 flex items-center justify-center rounded-xl bg-black border dark:border-white border-transparent text-white text-sm"
+          >
             Let's Connect <Send className="ml-2" />
-          </button>
+          </a>
         </div>
       </div>
       <div className="flex flex-col items-center justify-center py-4 border-gray-700">
