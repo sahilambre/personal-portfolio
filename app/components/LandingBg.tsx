@@ -63,10 +63,10 @@ const LandingBg = () => {
               </p>
             </div>
             <div className="flex justify-center">
-              <button className="mt-5 px-4 py-2 rounded-md border border-white bg-black text-white text-sm md:text-base hover:shadow-2xl transition duration-200 flex items-center">
+              {/* <button className="mt-5 px-4 py-2 rounded-md border border-white bg-black text-white text-sm md:text-base hover:shadow-2xl transition duration-200 flex items-center">
                 Checkout my CV
                 <ArrowRight className="ml-2" />
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
